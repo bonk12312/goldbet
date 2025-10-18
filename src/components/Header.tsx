@@ -8,7 +8,6 @@ type HeaderProps = {
 
 export const Header = ({ searchQuery, setSearchQuery }: HeaderProps) => {
   const { walletAddress, connecting, connected, connect, disconnect } = useWallet();
-
   const formatAddress = (address: string) => {
     return `${address.slice(0, 4)}...${address.slice(-4)}`;
   };
@@ -34,7 +33,7 @@ export const Header = ({ searchQuery, setSearchQuery }: HeaderProps) => {
 
           <div className="flex items-center gap-4">
             <a
-              href="https://x.com/goldbetsol"
+              href="https://x.com/gold_bet_"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white transition-colors"
